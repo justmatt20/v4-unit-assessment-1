@@ -50,10 +50,16 @@ sum(2,3)
 */
 
 //CODE HERE
-// function oddChecker() {
-//   if num 
-// };
-// oddChecker(num)
+function oddChecker() {
+  if (num % 2) {
+    console.log('the number is even');
+  }
+  else {
+    console.log('the number is odd');
+  }
+};
+oddChecker(num)
+oddChecker()
 //////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -63,7 +69,10 @@ sum(2,3)
 
 //CODE HERE
 
-
+// function iLove ('name', 'love') {
+//   return "'name' + 'loves' + 'love'";
+// }
+// iLove('Justine', 'understanding functions')
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
@@ -75,7 +84,7 @@ let colorCopy = faveColors.slice();
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-colorCopy.push('blue')
+colorCopy.push('blue');
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -124,19 +133,7 @@ let me = {
 */
 
 // CODE HERE
-// function bigOrSmall() {
-//     let answers = [67, 28, 92, 54]; 
-//       // for (let i=0; i<=answers.length; i++); {
-//       //   console.log(answers[i]);
-//       // }
-//     if i<=100{
-//       console.log('big');
-//     }
-//     else {
-//       console.log('small');
-//     }
-// };
-// bigOrSmall()
+//
 // function bigOrSmall(arr) {
 //   let answers = [67, 28, 92, 54]]
 //   for (let i=0; i<=answers.length; i++)
@@ -187,13 +184,13 @@ function secondFunction() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['global', 'inner', 'outer', 'functional']
+let globalScope = ['global', 'inner', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
-let firstFunctionScope = ['global', 'inner', 'outer']
+let firstFunctionScope = [ 'inner','outer']
 
 //This array should contain the variable names (as strings) accessible in the innerFunction function.
-let innerFunctionScope = ['global', 'inner']
+let innerFunctionScope = ['inner']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
 let secondFunctionScope = ['functional']
@@ -206,7 +203,15 @@ let secondFunctionScope = ['functional']
 */
 
 //CODE HERE
+function firstItem(cb, arr){
+  let letter = arr.length-1
+	cb(letter)
+};
 
+function secondItem(){
+  firstItem()
+};
+firstItem(secondItem)
 //////////////////PROBLEM 16////////////////////
 /* 
   Write a function called isItBob that takes in two arguments: an object and a callback function. 
@@ -216,7 +221,15 @@ let secondFunctionScope = ['functional']
 */
 
 //CODE HERE
+// function itIsBob(cb) {
+// 	if (obj = 'Bob') {
+//     obj(cb)
+//   }
+// function isTrue(nm) {
+// 	console.log('hello, nm');
+// };
 
+// doThings(isTrue);
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
@@ -225,7 +238,9 @@ let secondFunctionScope = ['functional']
 */
 
 //CODE HERE
-
+function giveMeDoubles() {
+for (let )
+};
 //////////////////PROBLEM 18////////////////////
 /*
   Write a function called carFactory that takes in three parameters: a make, model, and year.  
