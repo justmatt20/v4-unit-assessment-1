@@ -31,8 +31,10 @@ setGroceryListTitle(x)
 
 //CODE HERE
 function addItem() {
-
+    groceries.push('veggies');
+    displayData()
 };
+addItem(item)
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -42,7 +44,11 @@ function addItem() {
 */
 
 //CODE HERE
-
+function removeItem() {
+   let newList = groceries.splice(0,3);
+    displayData()
+};
+removeItem(index)
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
@@ -55,6 +61,21 @@ function addItem() {
 */
 
 //CODE HERE
+
+function checkGroceryCount() {
+let itemNum = groceries.length;
+    if (itemNum >= 5) {
+    return 'That looks like a big trip';
+    }
+    else if (itemNum === 1){
+    return '1 item';
+    } 
+    else  { //also tried (>=1 && <=5)
+    return 'itemNum items';
+    }
+};
+checkGroceryCount()
+
 
 
 //////////////////Check out your code!////////////////////

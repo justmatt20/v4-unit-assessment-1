@@ -34,8 +34,13 @@ sum(2,3)
 
 //CODE HERE
 // function trueOrFalse(data) {
-//   if data = 
+//   data = true  ? console.log('truthy') : console.log('falsy');
+
 // };
+
+// trueOrFalse(data)
+// // trueOrFalse()
+
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -119,19 +124,28 @@ let me = {
 */
 
 // CODE HERE
-function bigOrSmall() {
-    let answers = [67, 28, 92, 54]; 
-      // for (let i=0; i<=answers.length; i++); {
-      //   console.log(answers[i]);
-      // }
-    if i<=100{
-      console.log('big');
-    }
-    else {
-      console.log('small');
-    }
-};
-bigOrSmall()
+// function bigOrSmall() {
+//     let answers = [67, 28, 92, 54]; 
+//       // for (let i=0; i<=answers.length; i++); {
+//       //   console.log(answers[i]);
+//       // }
+//     if i<=100{
+//       console.log('big');
+//     }
+//     else {
+//       console.log('small');
+//     }
+// };
+// bigOrSmall()
+// function bigOrSmall(arr) {
+//   let answers = [67, 28, 92, 54]]
+//   for (let i=0; i<=answers.length; i++)
+//   if (i <= 100) {
+//     return 'small'
+//   }
+//   else return 'big'
+// };
+// bigOrSmall(arr)
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -176,13 +190,13 @@ function secondFunction() {
 let globalScope = ['global', 'inner', 'outer', 'functional']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
-let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
+let firstFunctionScope = ['global', 'inner', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the innerFunction function.
-let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
+let innerFunctionScope = ['global', 'inner']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
-let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
+let secondFunctionScope = ['functional']
 
 
 //////////////////PROBLEM 15////////////////////
