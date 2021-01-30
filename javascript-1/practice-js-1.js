@@ -2,17 +2,17 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-
+let myName = 'Justine';
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-
+let faveNum = 14;
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-
+let lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. 
@@ -20,7 +20,10 @@
 */
 
 //CODE HERE
-
+function sum(num1, num2){
+  return num1 + num2
+}; 
+sum(2,3)
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
@@ -30,7 +33,9 @@
 */
 
 //CODE HERE
-
+// function trueOrFalse(data) {
+//   if data = 
+// };
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -40,7 +45,10 @@
 */
 
 //CODE HERE
-
+// function oddChecker() {
+//   if num 
+// };
+// oddChecker(num)
 //////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -57,12 +65,12 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-
+let colorCopy = faveColors.slice();
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-
+colorCopy.push('blue')
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -72,7 +80,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-
+let middleNums = numbers.slice(1,4)
 //////////////////PROBLEM 11////////////////////
 /*
   Create an object called 'me' that has the following keys: 
@@ -88,6 +96,14 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
+let me = {
+  firstName: 'Justine',
+  state: 'Maryland',
+  age: 37,
+  greeter: function () {
+    console.log("Hello! My name is ${fistName} and I live in ${state}")
+  }
+};
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -103,6 +119,19 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 // CODE HERE
+function bigOrSmall() {
+    let answers = [67, 28, 92, 54]; 
+      // for (let i=0; i<=answers.length; i++); {
+      //   console.log(answers[i]);
+      // }
+    if i<=100{
+      console.log('big');
+    }
+    else {
+      console.log('small');
+    }
+};
+bigOrSmall()
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -115,6 +144,10 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
+function arrayReverser() {
+  let reversed = []
+};
+
 
 //////////////////PROBLEM 14////////////////////
 
